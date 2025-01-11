@@ -41,8 +41,6 @@ langchain-community = "^0.2.11"
 fastapi = ">=0.100,<=0.110"
 uvicorn = "^0.30.6"
 opik = "^0.2.2"
-mlx = "^0.22.0"
-mlx-lm = "^0.21.0"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -58,6 +56,11 @@ aws-profile-manager = "^0.7.3"
 kubernetes = "^30.1.0"
 sagemaker-huggingface-inference-toolkit = "^2.4.0"
 
+
+
+[tool.poetry.group.mac.dependencies]
+mlx-lm = "^0.21.0"
+mlx = "^0.22.0"
 
 [build-system]
 requires = ["poetry-core"]
