@@ -12,6 +12,7 @@ class Settings(BaseSettings):
     # OpenAI API
     OPENAI_MODEL_ID: str = "gpt-4o-mini"
     OPENAI_API_KEY: str | None = None
+    OPENAI_API_BASE: str | None = None
 
     # Huggingface API
     HUGGINGFACE_ACCESS_TOKEN: str | None = None

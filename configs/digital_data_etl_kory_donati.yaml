@@ -1,0 +1,16 @@
+kd2718/llmtwinsettings:
+  docker:
+    parent_image: 992382797823.dkr.ecr.eu-central-1.amazonaws.com/zenml-rlwlcs:latest
+    skip_build: True
+  orchestrator.sagemaker:
+    synchronous: false
+    
+parameters:
+  user_full_name: Kory Donati # [First Name(s)] [Last Name]
+  links:
+    # Old let's impute links
+    - https://raw.githubusercontent.com/kd2718/letsimpute2/refs/heads/main/posts/setting-up-my-project-docker/index.html
+    - https://raw.githubusercontent.com/kd2718/letsimpute2/refs/heads/main/posts/data-engineering-with-airflow-and-azure/index.html
+    - https://raw.githubusercontent.com/kd2718/letsimpute2/refs/heads/main/posts/docker-gitlab/index.html
+    - https://raw.githubusercontent.com/kd2718/letsimpute2/refs/heads/main/posts/pandas-row-offsets/index.html
+    - https://github.com/kd2718/letsimpute2/blob/main/pages/about/index.html
