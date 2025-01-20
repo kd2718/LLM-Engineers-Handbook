@@ -13,4 +13,5 @@ parameters:
     - https://raw.githubusercontent.com/kd2718/letsimpute2/refs/heads/main/posts/data-engineering-with-airflow-and-azure/index.html
     - https://raw.githubusercontent.com/kd2718/letsimpute2/refs/heads/main/posts/docker-gitlab/index.html
     - https://raw.githubusercontent.com/kd2718/letsimpute2/refs/heads/main/posts/pandas-row-offsets/index.html
-    - https://github.com/kd2718/letsimpute2/blob/main/pages/about/index.html
+    - https://raw.githubusercontent.com/kd2718/letsimpute2/refs/heads/main/pages/about/index.html
+    - https://kd2718.com/kaggle-dataset-expert

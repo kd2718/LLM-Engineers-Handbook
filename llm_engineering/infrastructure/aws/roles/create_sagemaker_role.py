@@ -22,6 +22,7 @@ def create_sagemaker_user(username: str):
         region_name=settings.AWS_REGION,
         aws_access_key_id=settings.AWS_ACCESS_KEY,
         aws_secret_access_key=settings.AWS_SECRET_KEY,
+        aws_session_token=settings.AWS_SESSION_TOKEN,
     )
 
     # Create user

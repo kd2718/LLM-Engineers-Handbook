@@ -39,6 +39,7 @@ class Settings(BaseSettings):
     AWS_REGION: str = "eu-central-1"
     AWS_ACCESS_KEY: str | None = None
     AWS_SECRET_KEY: str | None = None
+    AWS_SESSION_TOKEN: str | None = None
     AWS_ARN_ROLE: str | None = None
 
     # --- Optional settings used to tweak the code. ---

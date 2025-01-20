@@ -1,3 +1,5 @@
+mlx_model/
+adapters/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
